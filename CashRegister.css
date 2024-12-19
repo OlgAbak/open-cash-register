@@ -1,0 +1,225 @@
+:root {
+    --blue: #28BBE6;
+    --orange: #E68428;
+  }
+  
+  *,
+  *::before,
+  *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #E6DA28;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: Verdana, Tahoma;
+    color: #E62864;
+  }
+  
+  #change-due {
+    border: 10px solid var(--blue);
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    font-weight: 550;
+    width: 300px;
+    top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .input {
+    position: relative;
+    padding: 50px;
+    top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  
+  }
+  #cash {
+    position: relative;
+    padding: 10px;
+    top: 10px;
+    font-weight: 550;
+    font-size: 1rem;
+    font-family: Sans-Serif;
+  }
+  
+  
+  label {
+    color: #2858E6;
+    font-weight: 550;
+    font-family: Sans-Serif;
+    font-size: 1rem;
+  }
+  
+  button {
+    position: relative;
+    left: 100px;
+    bottom: 25px;
+    margin-left: 10px;
+    background-color: #28E643;
+  }
+  
+  #purchase-btn {
+    width: 100px;
+    height: 40px;
+    font-family: Verdana, Tahoma;
+    font-weight: 550;
+  }
+  
+  #price {
+    border: 10px solid var(--blue);
+    padding: 5px;
+    width: 200px;
+    position: relative;
+    left: 60px;
+    text-align: center;
+    font-weight: 550;
+    font-family: Arial;
+  }
+  
+  .left-square {
+    border: 10px solid var(--blue);
+    padding: 20px;
+    width: 10px;
+    position: relative;
+    left: 80px;
+    background-color: var(--blue);
+  }
+  
+  
+  .cash-register {
+    border: 10px solid var(--blue);
+    width: 400px;
+    height: 350px;
+    background-color: var(--blue);
+    border-radius: 10%;
+    
+  }
+  
+  .left-buttons {
+    position: relative;
+    border: 10px solid var(--blue);
+    width: 150px;
+    height: 150px;
+    top: 30px;
+    left: 5px;
+  }
+  
+  .left-button-1 {
+    position: absolute;
+    border: 10px solid var(--blue);
+    width: 50px;
+    height: 50px;
+    left: -5px;
+    background-color: var(--orange);
+  }
+  
+  .left-button-2 {
+    position: absolute;
+    border: 10px solid var(--blue) ;
+    width: 50px;
+    height: 50px;
+    left: 45px;
+    background-color: var(--orange);
+  }
+  
+  .left-button-3 {
+    position: absolute;
+    border: 10px solid var(--blue);
+    width: 50px;
+    height: 50px;
+    left: 90px;
+    background-color: var(--orange);
+  }
+  
+  .left-button-4 {
+    position: absolute;
+    border: 10px solid var(--blue);
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    margin-top: -60px;
+    background-color: var(--orange);
+  }
+  
+  .left-button-5 {
+    position: absolute;
+    border: 10px solid var(--blue);
+    width: 50px;
+    height: 50px;
+    left: 70px;
+    margin-top: -60px;
+    background-color: var(--orange);
+  }
+  
+  .left-button-6 {
+    position: absolute;
+    border: 10px solid var(--blue);
+    width: 50px;
+    height: 50px;
+    left: 115px;
+    margin-top: -60px;
+    background-color: var(--orange);
+  }
+  
+  .left-button-7 {
+    position: absolute;
+    border: 10px solid var(--blue);
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    margin-top: -15px;
+    background-color: var(--orange);
+  }
+  
+  .left-button-8 {
+    position: absolute;
+    border: 10px solid var(--blue);
+    width: 50px;
+    height: 50px;
+    left: 70px;
+    margin-top: -15px;
+    background-color: var(--orange);
+  }
+  
+  .left-button-9 {
+    position: absolute;
+    border: 10px solid var(--blue);
+    width: 50px;
+    height: 50px;
+    left: 115px;
+    margin-top: -15px;
+    background-color: var(--orange);
+  }
+  
+  .change-in-drawer {
+    border: 10px solid var(--blue);
+    padding: 5px;
+    width: 197px;
+    position: relative;
+    left: 170px;
+    background-color: white;
+    top: -300px;
+  }
+  
+  .apparatus {
+    position: relative;
+    top: 30px;
+  }
+  
+  
+  @media (max-width: 1400px) {
+    button {
+      margin-left: 400px;
+    }
+    .apparatus {
+      left: 400px;
+    }
+  }
